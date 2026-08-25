@@ -1,0 +1,38 @@
+{
+  "cost": {
+    "rows": 867,
+    "actual_zero_rows": 1,
+    "percentage_error_defined_rows": 866,
+    "median_absolute_percentage_error_pct": 248.33294144215597,
+    "p75_absolute_percentage_error_pct": 954.3934377509836,
+    "p90_absolute_percentage_error_pct": 3117.74534147453,
+    "within_20pct_share": 0.07736720554272518,
+    "within_50pct_share": 0.20554272517321015,
+    "within_100pct_share": 0.35450346420323325,
+    "mean_symmetric_percentage_error_pct": 112.30020071203252,
+    "actual_ge_10_rows": 223,
+    "actual_ge_10_median_absolute_percentage_error_pct": 52.93282709071985,
+    "actual_ge_10_within_50pct_share": 0.4663677130044843,
+    "actual_ge_100_rows": 113,
+    "actual_ge_100_median_absolute_percentage_error_pct": 49.03993083142004,
+    "actual_ge_100_within_50pct_share": 0.5221238938053098
+  },
+  "revenue": {
+    "rows": 867,
+    "actual_zero_rows": 64,
+    "percentage_error_defined_rows": 803,
+    "median_absolute_percentage_error_pct": 136.05265476876664,
+    "p75_absolute_percentage_error_pct": 621.7590129744926,
+    "p90_absolute_percentage_error_pct": 2123.390445922305,
+    "within_20pct_share": 0.11457036114570361,
+    "within_50pct_share": 0.2714819427148194,
+    "within_100pct_share": 0.44458281444582815,
+    "mean_symmetric_percentage_error_pct": 106.63291161105354,
+    "actual_ge_10_rows": 241,
+    "actual_ge_10_median_absolute_percentage_error_pct": 48.748214085353624,
+    "actual_ge_10_within_50pct_share": 0.5145228215767634,
+    "actual_ge_100_rows": 119,
+    "actual_ge_100_median_absolute_percentage_error_pct": 50.8290775060842,
+    "actual_ge_100_within_50pct_share": 0.48739495798319327
+  }
+}
