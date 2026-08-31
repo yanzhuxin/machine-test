@@ -1,0 +1,247 @@
+{
+  "predicted_amount_profit": [
+    {
+      "gamma": 0.0,
+      "largest_business": "10000000",
+      "largest_business_name": "腾讯汇聚直连",
+      "largest_share": 0.5030633083730429,
+      "unique_top1": 30,
+      "business_10000183_share": 0.0605854322668482,
+      "mean_raw_score_of_selected": 15.430917235872023
+    },
+    {
+      "gamma": 0.1,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.42239618788291355,
+      "unique_top1": 35,
+      "business_10000183_share": 0.05343771272974813,
+      "mean_raw_score_of_selected": 15.393316836367767
+    },
+    {
+      "gamma": 0.2,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.4303948264125255,
+      "unique_top1": 36,
+      "business_10000183_share": 0.04748127978216474,
+      "mean_raw_score_of_selected": 15.284492319904185
+    },
+    {
+      "gamma": 0.3,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.4387338325391423,
+      "unique_top1": 37,
+      "business_10000183_share": 0.041524846834581346,
+      "mean_raw_score_of_selected": 15.121405392543736
+    },
+    {
+      "gamma": 0.4,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.44588155207624236,
+      "unique_top1": 36,
+      "business_10000183_share": 0.03692988427501702,
+      "mean_raw_score_of_selected": 14.901392762958983
+    },
+    {
+      "gamma": 0.5,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.45200816882232814,
+      "unique_top1": 36,
+      "business_10000183_share": 0.032164737916950306,
+      "mean_raw_score_of_selected": 14.640427113834582
+    },
+    {
+      "gamma": 0.6,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.4579646017699115,
+      "unique_top1": 38,
+      "business_10000183_share": 0.028761061946902654,
+      "mean_raw_score_of_selected": 14.400200069047312
+    },
+    {
+      "gamma": 0.75,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.4674948944860449,
+      "unique_top1": 39,
+      "business_10000183_share": 0.02195371000680735,
+      "mean_raw_score_of_selected": 13.834198240534718
+    },
+    {
+      "gamma": 1.0,
+      "largest_business": "10000088",
+      "largest_business_name": "字节CDN汇聚V2",
+      "largest_share": 0.48842750170183796,
+      "unique_top1": 39,
+      "business_10000183_share": 0.016337644656228726,
+      "mean_raw_score_of_selected": 12.765890089998809
+    }
+  ],
+  "revised_profit_score": [
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.2559564329475834,
+      "unique_top1": 28,
+      "business_10000183_share": 0.05360789652825051,
+      "mean_raw_score_of_selected": 22.235083123892494
+    },
+    {
+      "gamma": 0.1,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.2227705922396188,
+      "unique_top1": 31,
+      "business_10000183_share": 0.04833219877467665,
+      "mean_raw_score_of_selected": 22.192244075518772
+    },
+    {
+      "gamma": 0.2,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.20149761742682096,
+      "unique_top1": 32,
+      "business_10000183_share": 0.04237576582709326,
+      "mean_raw_score_of_selected": 22.04052721039125
+    },
+    {
+      "gamma": 0.3,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.20728386657590198,
+      "unique_top1": 34,
+      "business_10000183_share": 0.03863172226004084,
+      "mean_raw_score_of_selected": 21.81541161201089
+    },
+    {
+      "gamma": 0.4,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.21068754254594962,
+      "unique_top1": 34,
+      "business_10000183_share": 0.03624914908100749,
+      "mean_raw_score_of_selected": 21.56750276603812
+    },
+    {
+      "gamma": 0.5,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.21341048332198775,
+      "unique_top1": 36,
+      "business_10000183_share": 0.03114363512593601,
+      "mean_raw_score_of_selected": 21.149445679287613
+    },
+    {
+      "gamma": 0.6,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.2137508509189925,
+      "unique_top1": 38,
+      "business_10000183_share": 0.02654867256637168,
+      "mean_raw_score_of_selected": 20.594033896661436
+    },
+    {
+      "gamma": 0.75,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.21443158611300203,
+      "unique_top1": 40,
+      "business_10000183_share": 0.020081688223281144,
+      "mean_raw_score_of_selected": 19.61885017778771
+    },
+    {
+      "gamma": 1.0,
+      "largest_business": "10000300",
+      "largest_business_name": "B站-晚高峰21点",
+      "largest_share": 0.2128999319264806,
+      "unique_top1": 44,
+      "business_10000183_share": 0.01514635806671205,
+      "mean_raw_score_of_selected": 17.50161701508494
+    }
+  ],
+  "amount_plus_revised": [
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.2312797821647379,
+      "unique_top1": 31,
+      "business_10000183_share": 0.061776718856364876,
+      "mean_raw_score_of_selected": 17.517181122619505,
+      "beta": 0.1,
+      "mean_original_amount_profit_of_selected": 15.39518319215742
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.23706603131381893,
+      "unique_top1": 30,
+      "business_10000183_share": 0.061946902654867256,
+      "mean_raw_score_of_selected": 19.665910004876554,
+      "beta": 0.2,
+      "mean_original_amount_profit_of_selected": 15.319478932921545
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.24285228046289994,
+      "unique_top1": 30,
+      "business_10000183_share": 0.06211708645336964,
+      "mean_raw_score_of_selected": 21.865242878955325,
+      "beta": 0.3,
+      "mean_original_amount_profit_of_selected": 15.194403784458304
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.2574880871341048,
+      "unique_top1": 30,
+      "business_10000183_share": 0.06262763784887679,
+      "mean_raw_score_of_selected": 26.39119333243394,
+      "beta": 0.5,
+      "mean_original_amount_profit_of_selected": 14.922080760010381
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.26089176310415246,
+      "unique_top1": 30,
+      "business_10000183_share": 0.0624574540503744,
+      "mean_raw_score_of_selected": 32.18403755224693,
+      "beta": 0.75,
+      "mean_original_amount_profit_of_selected": 14.650420461507997
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.26582709326072157,
+      "unique_top1": 29,
+      "business_10000183_share": 0.06126616746085772,
+      "mean_raw_score_of_selected": 38.06187324861015,
+      "beta": 1.0,
+      "mean_original_amount_profit_of_selected": 14.42252255285313
+    },
+    {
+      "gamma": 0.0,
+      "largest_business": "1382522065",
+      "largest_business_name": "字节架构汇聚",
+      "largest_share": 0.2656569094622192,
+      "unique_top1": 29,
+      "business_10000183_share": 0.060925799863852964,
+      "mean_raw_score_of_selected": 49.946088925829066,
+      "beta": 1.5,
+      "mean_original_amount_profit_of_selected": 14.137430533377808
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "version": "04_1_asymmetric_delivery_feasible_debiased_profit_ranking",
+  "date_window": {
+    "start": "2026-08-21",
+    "end": "2026-08-27"
+  },
+  "rules": {
+    "delivery_eligibility": "aggregation node -> aggregation business only; dedicated node -> aggregation or dedicated business",
+    "minimum_profit_training_support": 4,
+    "profit_score": "similar-node profit regressor + 0.3 * standardized no-business-prior pairwise score",
+    "amount_ranking_score": "predicted revenue - predicted cost + 0.1 * standardized revised-profit stability signal"
+  },
+  "recent_active_nodes": 7931,
+  "matched_complete_static_nodes": 5901,
+  "recommended_nodes_with_feasible_candidates": 5876,
+  "nodes_without_feasible_candidates": 25,
+  "eligible_businesses_support_gt3": 62,
+  "feasible_candidate_scores": 278760,
+  "validation": {
+    "old_pairwise_accuracy": 0.6370597243491577,
+    "revised_pairwise_accuracy": 0.6477794793261868,
+    "old_ndcg_at_3": 0.8660495430267006,
+    "revised_ndcg_at_3": 0.8700058856377263,
+    "old_mean_top1_regret": 6.390333095747599,
+    "revised_mean_top1_regret": 6.350722571450647
+  },
+  "old_amount_top1_distribution": {
+    "nodes": 5901,
+    "unique_top1_businesses": 24,
+    "largest_top1_business": "10000224",
+    "largest_top1_business_name": "字节CDN专线V4",
+    "largest_top1_share": 0.30096593797661414,
+    "business_10000183_top1_count": 1601,
+    "business_10000183_top1_share": 0.2713099474665311,
+    "top10": [
+      {
+        "business": "10000224",
+        "business_name": "字节CDN专线V4",
+        "count": 1776,
+        "share": 0.30096593797661414
+      },
+      {
+        "business": "10000183",
+        "business_name": "B站专线-盒子",
+        "count": 1601,
+        "share": 0.2713099474665311
+      },
+      {
+        "business": "10000015",
+        "business_name": "斗鱼",
+        "count": 1460,
+        "share": 0.2474156922555499
+      },
+      {
+        "business": "10000000",
+        "business_name": "腾讯汇聚直连",
+        "count": 337,
+        "share": 0.05710896458227419
+      },
+      {
+        "business": "10000096",
+        "business_name": "字节架构专线V3",
+        "count": 279,
+        "share": 0.0472801220132181
+      },
+      {
+        "business": "1382649737",
+        "business_name": "腾讯专线",
+        "count": 116,
+        "share": 0.019657685138112186
+      },
+      {
+        "business": "10000037",
+        "business_name": "天翼云专线",
+        "count": 113,
+        "share": 0.019149296729367903
+      },
+      {
+        "business": "10000034",
+        "business_name": "优酷专线",
+        "count": 62,
+        "share": 0.010506693780715132
+      },
+      {
+        "business": "1380317970",
+        "business_name": "快手点播",
+        "count": 33,
+        "share": 0.005592272496187087
+      },
+      {
+        "business": "10000244",
+        "business_name": "B站专线-盒子V2",
+        "count": 25,
+        "share": 0.004236570072869005
+      }
+    ]
+  },
+  "old_direct_top1_distribution": {
+    "nodes": 5901,
+    "unique_top1_businesses": 32,
+    "largest_top1_business": "10000183",
+    "largest_top1_business_name": "B站专线-盒子",
+    "largest_top1_share": 0.5149974580579563,
+    "business_10000183_top1_count": 3039,
+    "business_10000183_top1_share": 0.5149974580579563,
+    "top10": [
+      {
+        "business": "10000183",
+        "business_name": "B站专线-盒子",
+        "count": 3039,
+        "share": 0.5149974580579563
+      },
+      {
+        "business": "10000034",
+        "business_name": "优酷专线",
+        "count": 657,
+        "share": 0.11133706151499746
+      },
+      {
+        "business": "1382649737",
+        "business_name": "腾讯专线",
+        "count": 441,
+        "share": 0.07473309608540925
+      },
+      {
+        "business": "10000150",
+        "business_name": "金山晚高峰",
+        "count": 399,
+        "share": 0.06761565836298933
+      },
+      {
+        "business": "10000300",
+        "business_name": "B站-晚高峰21点",
+        "count": 264,
+        "share": 0.044738179969496694
+      },
+      {
+        "business": "10000244",
+        "business_name": "B站专线-盒子V2",
+        "count": 234,
+        "share": 0.03965429588205389
+      },
+      {
+        "business": "10000037",
+        "business_name": "天翼云专线",
+        "count": 187,
+        "share": 0.03168954414506016
+      },
+      {
+        "business": "10000096",
+        "business_name": "字节架构专线V3",
+        "count": 174,
+        "share": 0.029486527707168277
+      },
+      {
+        "business": "10000304",
+        "business_name": "快手严选",
+        "count": 102,
+        "share": 0.01728520589730554
+      },
+      {
+        "business": "10000015",
+        "business_name": "斗鱼",
+        "count": 83,
+        "share": 0.014065412641925098
+      }
+    ]
+  },
+  "v4_amount_top1_distribution": {
+    "nodes": 5876,
+    "unique_top1_businesses": 29,
+    "largest_top1_business": "1382522065",
+    "largest_top1_business_name": "字节架构汇聚",
+    "largest_top1_share": 0.23179033356024506,
+    "business_10000183_top1_count": 300,
+    "business_10000183_top1_share": 0.05105513955071477,
+    "top10": [
+      {
+        "business": "1382522065",
+        "business_name": "字节架构汇聚",
+        "count": 1362,
+        "share": 0.23179033356024506
+      },
+      {
+        "business": "10000244",
+        "business_name": "B站专线-盒子V2",
+        "count": 867,
+        "share": 0.14754935330156568
+      },
+      {
+        "business": "10000300",
+        "business_name": "B站-晚高峰21点",
+        "count": 803,
+        "share": 0.13665759019741322
+      },
+      {
+        "business": "10000000",
+        "business_name": "腾讯汇聚直连",
+        "count": 676,
+        "share": 0.11504424778761062
+      },
+      {
+        "business": "1382490022",
+        "business_name": "快手盒子",
+        "count": 536,
+        "share": 0.09121851599727705
+      },
+      {
+        "business": "10000183",
+        "business_name": "B站专线-盒子",
+        "count": 300,
+        "share": 0.05105513955071477
+      },
+      {
+        "business": "10000197",
+        "business_name": "天翼云V2",
+        "count": 236,
+        "share": 0.04016337644656229
+      },
+      {
+        "business": "10000292",
+        "business_name": "__MISSING__",
+        "count": 190,
+        "share": 0.032334921715452686
+      },
+      {
+        "business": "10000123",
+        "business_name": "金山云ern_HQ",
+        "count": 174,
+        "share": 0.029611980939414567
+      },
+      {
+        "business": "10000122",
+        "business_name": "金山云汇聚ern",
+        "count": 169,
+        "share": 0.028761061946902654
+      }
+    ]
+  },
+  "v4_revised_top1_distribution": {
+    "nodes": 5876,
+    "unique_top1_businesses": 27,
+    "largest_top1_business": "1382522065",
+    "largest_top1_business_name": "字节架构汇聚",
+    "largest_top1_share": 0.25663716814159293,
+    "business_10000183_top1_count": 279,
+    "business_10000183_top1_share": 0.04748127978216474,
+    "top10": [
+      {
+        "business": "1382522065",
+        "business_name": "字节架构汇聚",
+        "count": 1508,
+        "share": 0.25663716814159293
+      },
+      {
+        "business": "10000300",
+        "business_name": "B站-晚高峰21点",
+        "count": 1081,
+        "share": 0.18396868618107556
+      },
+      {
+        "business": "10000244",
+        "business_name": "B站专线-盒子V2",
+        "count": 916,
+        "share": 0.15588835942818244
+      },
+      {
+        "business": "1382490022",
+        "business_name": "快手盒子",
+        "count": 544,
+        "share": 0.09257998638529612
+      },
+      {
+        "business": "10000292",
+        "business_name": "__MISSING__",
+        "count": 371,
+        "share": 0.06313818924438394
+      },
+      {
+        "business": "10000183",
+        "business_name": "B站专线-盒子",
+        "count": 279,
+        "share": 0.04748127978216474
+      },
+      {
+        "business": "10000197",
+        "business_name": "天翼云V2",
+        "count": 219,
+        "share": 0.037270251872021785
+      },
+      {
+        "business": "10000304",
+        "business_name": "快手严选",
+        "count": 217,
+        "share": 0.03692988427501702
+      },
+      {
+        "business": "10000122",
+        "business_name": "金山云汇聚ern",
+        "count": 208,
+        "share": 0.035398230088495575
+      },
+      {
+        "business": "10000123",
+        "business_name": "金山云ern_HQ",
+        "count": 194,
+        "share": 0.03301565690946222
+      }
+    ]
+  },
+  "combined_rows": 21967,
+  "seconds": 861.626,
+  "outputs": [
+    "v4_1_recent7d_feasible_amount_profit_top3.csv",
+    "v4_1_recent7d_debiased_profit_top3.csv",
+    "v4_1_recent7d_combined_top5.csv"
+  ]
+}

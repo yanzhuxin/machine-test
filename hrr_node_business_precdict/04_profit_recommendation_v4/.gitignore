@@ -1,0 +1,4 @@
+.codex_work/
+__pycache__/
+*.pyc
+outputs/01a0225a-43b2-7991-a2c3-00e9e4064c5d/aggregation_dedicated_daily_outcomes_last30d.csv
