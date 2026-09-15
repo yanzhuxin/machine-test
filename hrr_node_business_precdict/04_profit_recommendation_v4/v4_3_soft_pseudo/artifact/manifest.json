@@ -1,0 +1,25 @@
+{
+  "version": "v4.3",
+  "selected_threshold": 0.995,
+  "selected_weight": 1.0,
+  "pseudo_sample_policy": "low-weight similarity soft labels; validation targets excluded",
+  "selected_metrics": {
+    "eligible_nodes": 653.0,
+    "eligible_rows": 1306.0,
+    "pair_count": 653.0,
+    "pairwise_accuracy": 0.655436447166922,
+    "top1_accuracy": 0.655436447166922,
+    "mean_top1_regret": 6.343518749688424,
+    "median_top1_regret": 0.0,
+    "mean_spearman": 0.3108728943338437,
+    "mean_ndcg_at_3": 0.8728318446456018,
+    "mean_ndcg_at_5": 0.8728318446456018,
+    "similarity_threshold": 0.995,
+    "pseudo_weight": 1.0,
+    "pseudo_rows": 6612.0,
+    "pseudo_nodes": 2629.0,
+    "train_rows": 13412.0,
+    "feature_count": 112.0,
+    "fit_seconds": 41.165
+  }
+}

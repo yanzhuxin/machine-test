@@ -1,0 +1,130 @@
+{
+  "version": "v4.3_soft_pseudo_samples",
+  "validation_design": "original v4.1 deterministic mask; pseudo rows generated only from training nodes/business outcomes",
+  "similarity": {
+    "categorical_features": [
+      "attribute_delivery_type",
+      "resourcetype",
+      "dialtype",
+      "nattype",
+      "scheduleisps",
+      "regsource",
+      "customermode",
+      "province",
+      "isp",
+      "device_type",
+      "arch_type",
+      "isvm",
+      "hardwaretype",
+      "analysis_nodecustmertype",
+      "analysis_nodedeliverytype",
+      "analysis_tcpnattype",
+      "analysis_udpnattype",
+      "analysis_cooperationtype",
+      "analysis_supply_side_delivery_type",
+      "analysis_isroot",
+      "analysis_issupportipv6"
+    ],
+    "numeric_features": [
+      "corenum",
+      "memtotal",
+      "totaldisksize",
+      "hdddisksize",
+      "ssddisksize",
+      "analysis_yesterday_p95_bw",
+      "analysis_yesterday_snapshot_bw",
+      "analysis_yesterday_snapshot_netbench_bw",
+      "analysis_dby_p95_bw",
+      "join_actualbw",
+      "join_cpu_totalcores",
+      "join_memtotal",
+      "join_disks_total_size"
+    ],
+    "categorical_weight": 1.25,
+    "numeric_weight": 0.55,
+    "distance": "cosine similarity on L2-normalized one-hot + standardized log1p numeric features",
+    "nodes": 7694,
+    "dimensions": 120
+  },
+  "pseudo_similarity_distribution": {
+    "count": 8876.0,
+    "mean": 0.9969174674014993,
+    "std": 0.0028306685141168903,
+    "min": 0.9900030493736267,
+    "50%": 0.9976887702941895,
+    "75%": 0.9994316697120667,
+    "90%": 0.9999446868896484,
+    "95%": 0.9999887943267822,
+    "97%": 0.9999963492155075,
+    "99%": 0.9999996423721313,
+    "max": 1.000000238418579
+  },
+  "baseline_v41": {
+    "pairwise_accuracy": 0.6477794793261868,
+    "ndcg_at_3": 0.8700058856377263,
+    "mean_top1_regret": 6.350722571450647
+  },
+  "selected_threshold": 0.995,
+  "selected_weight": 1.0,
+  "candidates": [
+    {
+      "eligible_nodes": 653,
+      "eligible_rows": 1306,
+      "pair_count": 653,
+      "pairwise_accuracy": 0.655436447166922,
+      "top1_accuracy": 0.655436447166922,
+      "mean_top1_regret": 6.343518749688424,
+      "median_top1_regret": 0.0,
+      "mean_spearman": 0.3108728943338437,
+      "mean_ndcg_at_3": 0.8728318446456018,
+      "mean_ndcg_at_5": 0.8728318446456018,
+      "similarity_threshold": 0.995,
+      "pseudo_weight": 1.0,
+      "pseudo_rows": 6612,
+      "pseudo_nodes": 2629,
+      "train_rows": 13412,
+      "feature_count": 112,
+      "fit_seconds": 41.165
+    }
+  ],
+  "future_test": {
+    "rows": 3604,
+    "nodes": 1598,
+    "all_multibusiness": {
+      "eligible_nodes": 1556,
+      "eligible_rows": 3562,
+      "pair_count": 2936,
+      "pairwise_accuracy": 0.7523841961852861,
+      "top1_accuracy": 0.8367609254498715,
+      "mean_top1_regret": 16.468605398457584,
+      "median_top1_regret": 0.0,
+      "mean_spearman": 0.7454162148517385,
+      "mean_ndcg_at_3": 0.9443063715119836,
+      "mean_ndcg_at_5": 0.9474274846926485
+    },
+    "mixed_with_unseen": {
+      "eligible_nodes": 235,
+      "eligible_rows": 661,
+      "pair_count": 735,
+      "pairwise_accuracy": 0.6748299319727891,
+      "top1_accuracy": 0.6297872340425532,
+      "mean_top1_regret": 38.283872340425525,
+      "median_top1_regret": 0.0,
+      "mean_spearman": 0.3895801030825522,
+      "mean_ndcg_at_3": 0.8734474943329573,
+      "mean_ndcg_at_5": 0.8826019438991545
+    },
+    "strict_unseen_only": {
+      "eligible_nodes": 92,
+      "eligible_rows": 210,
+      "pair_count": 169,
+      "pairwise_accuracy": 0.6745562130177515,
+      "top1_accuracy": 0.717391304347826,
+      "mean_top1_regret": 15.126413043478262,
+      "median_top1_regret": 0.0,
+      "mean_spearman": 0.5430446933428044,
+      "mean_ndcg_at_3": 0.9027957229522012,
+      "mean_ndcg_at_5": 0.9072782424334604
+    }
+  }
+}

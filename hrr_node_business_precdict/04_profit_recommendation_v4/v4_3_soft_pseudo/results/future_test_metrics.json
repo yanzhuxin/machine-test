@@ -1,0 +1,40 @@
+{
+  "rows": 3604,
+  "nodes": 1598,
+  "all_multibusiness": {
+    "eligible_nodes": 1556,
+    "eligible_rows": 3562,
+    "pair_count": 2936,
+    "pairwise_accuracy": 0.7523841961852861,
+    "top1_accuracy": 0.8367609254498715,
+    "mean_top1_regret": 16.468605398457584,
+    "median_top1_regret": 0.0,
+    "mean_spearman": 0.7454162148517385,
+    "mean_ndcg_at_3": 0.9443063715119836,
+    "mean_ndcg_at_5": 0.9474274846926485
+  },
+  "mixed_with_unseen": {
+    "eligible_nodes": 235,
+    "eligible_rows": 661,
+    "pair_count": 735,
+    "pairwise_accuracy": 0.6748299319727891,
+    "top1_accuracy": 0.6297872340425532,
+    "mean_top1_regret": 38.283872340425525,
+    "median_top1_regret": 0.0,
+    "mean_spearman": 0.3895801030825522,
+    "mean_ndcg_at_3": 0.8734474943329573,
+    "mean_ndcg_at_5": 0.8826019438991545
+  },
+  "strict_unseen_only": {
+    "eligible_nodes": 92,
+    "eligible_rows": 210,
+    "pair_count": 169,
+    "pairwise_accuracy": 0.6745562130177515,
+    "top1_accuracy": 0.717391304347826,
+    "mean_top1_regret": 15.126413043478262,
+    "median_top1_regret": 0.0,
+    "mean_spearman": 0.5430446933428044,
+    "mean_ndcg_at_3": 0.9027957229522012,
+    "mean_ndcg_at_5": 0.9072782424334604
+  }
+}

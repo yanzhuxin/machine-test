@@ -1,0 +1,2 @@
+﻿eligible_nodes,eligible_rows,pair_count,pairwise_accuracy,top1_accuracy,mean_top1_regret,median_top1_regret,mean_spearman,mean_ndcg_at_3,mean_ndcg_at_5,similarity_threshold,pseudo_weight,pseudo_rows,pseudo_nodes,train_rows,feature_count,fit_seconds
+653,1306,653,0.655436447166922,0.655436447166922,6.343518749688424,0.0,0.3108728943338437,0.8728318446456018,0.8728318446456018,0.995,1.0,6612,2629,13412,112,41.165
